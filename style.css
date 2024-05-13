@@ -1,0 +1,86 @@
+/* Reset de Estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos Gerais */
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+header h1 {
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+aside {
+    float: right;
+    width: 300px;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+aside h2 {
+    margin-bottom: 10px;
+}
+
+aside form {
+    display: flex;
+}
+
+aside input[type="email"] {
+    flex: 1;
+    padding: 10px;
+}
+
+aside button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+main {
+    margin-top: 20px;
+}
+
+.momentos {
+    background-color: #f9f9f9;
+    padding: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
